@@ -97,7 +97,8 @@ class Hangman extends Component {
 
     return (
       <div className='Hangman'>
-        <h1>Hangman</h1>
+        <h1>5 Letter Hangman</h1>
+
         <img src={images[nWrong]} alt={alternateText}/>
         <p>Number Wrong: {nWrong}</p>
 
